@@ -14,8 +14,6 @@ header {
     align-items: center;
     background-repeat: no-repeat;
     padding: 10vh;
-    margin-left: 20vh;
-    margin-right: 20vh;
     height: 60vh;
 }
 
@@ -28,28 +26,28 @@ header h1 {
 /*Header Fim*/
 /*Main Inicio*/
 main h2 {
-    margin-left: 50vh;
+    margin-left: 40vh;
     margin-top: 10vh;
     font-size: 5vh;
 }
 
 main h4 {
-    margin-left: 50vh;
+    margin-left: 40vh;
     margin-bottom: 2vh;
     margin-top: 1vh;
 }
 
 main img {
-    width: 100vh;
-    height: 50vh;
-    margin-left: 50vh;
+    width: 120vh;
+    height: 60vh;
+    margin-left: 40vh;
 }
 
 main p {
-    margin-left: 50vh;
+    margin-left: 40vh;
     margin-top: 2vh;
     font-size: 2vh;
-    width: 100vh;
+    width: 120vh;
 }
 
 /*Main fim*/
@@ -60,9 +58,7 @@ footer {
     padding-left: 10vh;
     padding-right: 10vh;
     margin-top: 10vh;
-    margin-left: 20vh;
-    margin-right: 20vh;
-    background-color: rgb(203, 203, 203);
+    background-color: #cbcbcb;
 }
 
 footer section {
