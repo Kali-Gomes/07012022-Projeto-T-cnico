@@ -49,10 +49,12 @@ main p {
     font-size: 2vh;
     width: 120vh;
 }
-main p:first-of-type{
+
+main p:first-of-type {
     background-color: #ff9100;
 }
-main p:last-of-type{
+
+main p:last-of-type {
     background-color: #7fffd4;
 }
 
@@ -78,11 +80,11 @@ footer h3 {
     background-color: crimson;
 }
 
-footer section:first-of-type h3{
+footer section:first-of-type h3 {
     background-color: #7fffd4;
 }
 
-footer section:last-of-type h3{
+footer section:last-of-type h3 {
     background-color: #85ff7f;
 }
 
@@ -95,14 +97,17 @@ footer p {
     margin-bottom: 1vh;
     width: 40vh;
     font-size: 1.5vh;
+}
+
+footer section:nth-of-type(1) p {
+    background-color: #7fffd4;
+}
+
+footer section:nth-of-type(2) p {
     background-color: crimson;
 }
 
-footer section:first-of-type p{
-    background-color:  #7fffd4;
-}
-
-footer section:last-of-type p{
+footer section:nth-of-type(3) p {
     background-color: #85ff7f;
 }
 
@@ -111,14 +116,33 @@ footer button {
     font-size: 2vh;
     border: none;
     border-radius: 2vh;
-    background-color: #ff9100;
     color: white;
     font-weight: 700;
     transition: 0.3s;
 }
 
-footer button:hover {
-    background-color: #c36e00;
+footer section:nth-of-type(1) button {
+    background-color: #7fffd4;
+}
+
+footer section:nth-of-type(1) button:hover {
+    background-color: #5fbb9c;
+}
+
+footer section:nth-of-type(2) button {
+    background-color: crimson;
+}
+
+footer section:nth-of-type(2) button:hover {
+    background-color: rgb(160, 14, 43);
+}
+
+footer section:nth-of-type(3) button {
+    background-color: #85ff7f;
+}
+
+footer section:nth-of-type(3) button:hover {
+    background-color: #489943;
 }
 
 /*Footer fim*/
