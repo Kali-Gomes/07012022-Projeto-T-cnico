@@ -49,8 +49,15 @@ main p {
     font-size: 2vh;
     width: 120vh;
 }
+main p:first-of-type{
+    background-color: #ff9100;
+}
+main p:last-of-type{
+    background-color: #7fffd4;
+}
 
 /*Main fim*/
+/*Footer Inicio*/
 
 footer {
     display: flex;
@@ -68,6 +75,15 @@ footer section {
 
 footer h3 {
     margin-bottom: 1vh;
+    background-color: crimson;
+}
+
+footer section:first-of-type h3{
+    background-color: #7fffd4;
+}
+
+footer section:last-of-type h3{
+    background-color: #85ff7f;
 }
 
 footer section img {
@@ -79,6 +95,15 @@ footer p {
     margin-bottom: 1vh;
     width: 40vh;
     font-size: 1.5vh;
+    background-color: crimson;
+}
+
+footer section:first-of-type p{
+    background-color:  #7fffd4;
+}
+
+footer section:last-of-type p{
+    background-color: #85ff7f;
 }
 
 footer button {
@@ -95,3 +120,5 @@ footer button {
 footer button:hover {
     background-color: #c36e00;
 }
+
+/*Footer fim*/
